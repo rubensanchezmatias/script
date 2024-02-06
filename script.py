@@ -28,3 +28,6 @@ plt.plot(range(1, len(pca.explained_variance_ratio_)+1), pca.explained_variance_
 plt.xlabel('Number of components')
 plt.ylabel('Cumulative explained variance')
 plt.show()
+
+# guardar la figura en un archivo png
+plt.savefig('plot.png')
